@@ -2,8 +2,14 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: RegolaProRegular;
+  src: url("fonts/RegolaProRegular.otf");
+}
+
+
 body{
-  font-family: "Work Sans", sans-serif;
+  font-family: RegolaProRegular;
   font-size: 14px;
   line-height: 1.4;
 }

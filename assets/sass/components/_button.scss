@@ -1,0 +1,37 @@
+
+.button {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+
+  &--with-icon {
+    padding: 8px 12px 8px 28px;
+    background-color: $darkGrey;
+    color: $white;
+    font-size: $font-size-4;
+    position: relative;
+
+    &:before {
+      background-image: url('/assets/images/sprites.svg');
+      background-repeat: no-repeat;
+      content: "";
+      height: 18px;
+      width: 15px;
+      left: 10px;
+      position: absolute;
+    }
+
+    &.add {
+      &:before {
+        background-position: 0 -24px;
+      }
+    }
+
+    &.import {
+      &:before {
+        background-position: 0 0;
+      }
+    }
+  }
+}

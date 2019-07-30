@@ -1,11 +1,33 @@
-//@import "helpers/index";
-//@import "mixins/index";
-//@import "base/index";
+@import "helpers/index";
+@import "mixins/index";
+@import "components/index";
+@import "base/index";
 
-.nav{
-  background-color: grey;
-  .list-item{
-    font-size: 14px;
-    color: red;
+
+
+.detail{
+  form{
+    img{
+      display: block;
+      width: 100%;
+    }
   }
 }
+
+//.level1{
+//  border: 2px solid teal;
+//  width: 800px;
+//  height: 400px;
+//  padding: 36px;
+//}
+//
+//.level2{
+//  border: 2px solid red;
+//  width: 600px;
+//  height: 300px;
+//  padding: 18px;
+//}
+//
+//.child{
+//  position: absolute;
+//}

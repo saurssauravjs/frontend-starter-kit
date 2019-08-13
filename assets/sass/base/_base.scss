@@ -1,8 +1,10 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: "Work Sans", sans-serif;
   font-size: 14px;
   line-height: 1.4;
